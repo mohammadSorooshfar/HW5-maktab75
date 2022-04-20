@@ -74,7 +74,7 @@ body{
 }
 .fifthDiv div{
     display: inline-block;
-    width: 674px;
+    width: 940px;
     height: 20vh;
     vertical-align: top;
     color: white;
@@ -100,34 +100,4 @@ body{
 }
 .project span{
     color: blue;
-    background-color: rgb(28, 22, 131);
-}
-h1,p{
-    text-align: center;
-    color: white;
-}
-.form{
-    width: fit-content;
-    background-color: rgba(3, 3, 46,0.7);
-    color: white;
-    padding: 1%;
-    margin-left: 39%;
-}
-input[type=text],select{
-    width: 95%;
-    height: 25px;
-    border-radius: 5px;
-    border-style: none;
-    padding-left: 4px;
-}
-.form div{
-    margin-bottom: 6%;
-    margin-top: 2%;
-}
-button{
-    width: 97%;
-    height: 30px;
-    background-color: rgb(7, 190, 7);
-    color: white;
-    border-style: none;
 }
