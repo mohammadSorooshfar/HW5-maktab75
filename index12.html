@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>freeCodeCamp Survey Form</h1>
+      <p>Thank you for taking the time to help us improve the problem</p>
+    </div>
+    <div class="form">
+      <label for="name">Name</label>
+      <div>
+        <input type="text" id="name" placeholder="Enter your name" />
+      </div>
+      <label for="Email">Email</label>
+      <div>
+        <input type="text" id="Email" placeholder="Enter your email" />
+      </div>
+      <label for="age">Age(optional)</label>
+      <div>
+        <input type="text" id="age" placeholder="Age" />
+      </div>
+
+      <label for="role">Which option best describes your current role?</label>
+
+      <div>
+        <select id="role">
+          <option selected>select current role</option>
+        </select>
+      </div>
+      <div>
+        <label for="friend"
+          >Would you recommend freeCodeCamp to a friend?</label
+        >
+      </div>
+      <div>
+        <input type="radio" id="definitely" name="recommend" checked />
+        <label for="definitely">definitely</label>
+      </div>
+
+      <div>
+        <input type="radio" id="Maybe" name="recommend" />
+        <label for="Maybe">Maybe</label>
+      </div>
+
+      <div>
+        <input type="radio" id="Not Sure" name="recommend" />
+        <label for="Not Sure">Not Sure</label>
+      </div>
+      <label for="feature"
+        >What is your favorite feature of freeCodeCamp?</label
+      >
+
+      <div>
+        <select id="feature">
+          <option selected>select an option</option>
+        </select>
+      </div>
+      <label for="improve"
+        >What would you like to see improved?(check all that apply)
+      </label>
+      <div name="improve">
+        <input type="checkbox" name="front" value="Bike" />
+        <label for="front"> front-end projects</label><br />
+        <input type="checkbox" name="back" value="Car" />
+        <label for="back"> Back-end projects</label><br />
+        <input type="checkbox" name="data" value="Boat" />
+        <label for="data"> Data Visualization</label><br />
+        <input type="checkbox" name="challenge" value="Bike" />
+        <label for="challenge"> Open Source Community</label><br />
+        <input type="checkbox" name="open" value="Car" />
+        <label for="open"> Glitter help rooms</label><br />
+        <input type="checkbox" name="glitter" value="Boat" />
+        <label for="glitter"> Videos</label><br />
+        <input type="checkbox" name="video" value="Bike" />
+        <label for="video"> City Meetups</label><br />
+        <input type="checkbox" name="City" value="Car" />
+        <label for="City"> Wiki</label><br />
+        <input type="checkbox" name="wiki" value="Boat" />
+        <label for="wiki"> Forum</label><br />
+        <input type="checkbox" name="forum" value="Car" />
+        <label for="forum"> Additional Courses</label><br />
+      </div>
+      <label for="box">Any comments or Suggestions?</label>
+      <div>
+        <textarea id="box" cols="47" rows="5"></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </div>
+  </body>
+</html>
