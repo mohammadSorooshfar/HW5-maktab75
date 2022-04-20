@@ -1,19 +1,103 @@
-.firstDiv{
+body{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+.firstDiv,.thirdDiv{
     background-color: rgb(58, 57, 57);
     color: white;
+    height: 30vh;
 }
-.secondDiv{
-    
+.firstDiv{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+
+}
+.firstDiv p{
+    width: 40%;
+    margin-left: 29%;
+    margin-bottom: 1%;
+    line-height: 30px;
+
+}
+.firstDiv button{
+    background-color: transparent;
+    border:1px solid white;
+    width: 150px;
+    height: 60px;
+    color: white;
+}
+.secondDiv, .fourthDiv{
+    height: 20vh;
+    color: rgb(66, 66, 66);
+}
+.secondDiv h1{
+    margin-bottom: 0;
+}
+.secondDiv p{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .thirdDiv{
-    color: rgb(58, 57, 57);
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+.thirdDiv div{
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    color: rgb(66, 66, 66);
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 25px;
+    padding: 5px;
+}
+
 .fourthDiv{
-    
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
 }
-.fifthDiv{
-    
+.fourthDiv p{
+    width: 40%;
+    margin-left: 29%;
+    margin-bottom: 1%;
+    line-height: 30px;
+    color: rgb(66, 66, 66);
+}
+.fifthDiv div{
+    display: inline-block;
+    width: 674px;
+    height: 20vh;
+    vertical-align: top;
+    color: white;
+}
+.left{
+    background-color: rgb(16, 142, 226);
+}
+.right{
+    background-color: rgb(58, 57, 57);
 }
 .sixthDiv{
-    
+    background-color: black;
+    color: white;
+}
+.sixthDiv p{
+    display: inline-block;
+}
+.Acme{
+    margin-right: 35%;
+}
+.project{
+    margin-left: 2%;
+}
+.project span{
+    color: blue;
 }
