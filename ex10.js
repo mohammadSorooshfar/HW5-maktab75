@@ -138,3 +138,4 @@ function User() {
   };
 }
 //age name familyName education phone
+let userObj = new User();
