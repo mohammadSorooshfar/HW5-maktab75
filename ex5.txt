@@ -1,0 +1,8 @@
+it will return the name property of the object window
+to solve this problem we can turn makeUser into a constructor
+function makeUser() {
+  this.name = "john";
+  this.ref = this;
+}
+and call it with new 
+let user = new makeUser();
