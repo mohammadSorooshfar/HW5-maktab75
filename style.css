@@ -72,17 +72,24 @@ body{
     line-height: 30px;
     color: rgb(66, 66, 66);
 }
-.fifthDiv div{
-    display: inline-block;
-    width: 940px;
-    height: 20vh;
-    vertical-align: top;
+.fifthDiv{
+    box-sizing: border-box;
     color: white;
+    font-size: 0;
 }
 .left{
+    display: inline-block;
+    width: 50%;
+    font-size: 16px;
+    vertical-align: top;
     background-color: rgb(16, 142, 226);
 }
 .right{
+    display: inline-block;
+    width: 50%;
+    font-size: 16px;
+    height: 176.81px;
+    vertical-align: top;
     background-color: rgb(58, 57, 57);
 }
 .sixthDiv{
